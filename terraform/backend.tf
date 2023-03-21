@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "testbucket12399"
+    bucket = "workload-migration-tfstate-test"
     region = "us-east-1"
-    key = "eks/terraform.tfstate"
+    key = "workload-migration-tfstate-test/EKS/terraform.tfstate"
   }
 }
